@@ -15,11 +15,11 @@ labels: "bug"
 
 **Package Name:** [name of package which has bug(s)]
 
-### Current Behaviour
+### Current Behavior
 
-<!-- A clear and concise description of the behaviour. -->
+<!-- A clear and concise description of the behavior. -->
 
-### Expected Behaviour
+### Expected Behavior
 
 <!-- A clear and concise description of what you expected to happen. -->
 
