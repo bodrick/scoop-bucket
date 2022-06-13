@@ -1,0 +1,23 @@
+{
+    "autoupdate": {
+        "hash": {
+            "mode": "download"
+        },
+        "url": "https://github.com/NuGetPackageExplorer/NuGetPackageExplorer/releases/download/v$version/PackageExplorer.$version.zip"
+    },
+    "bin": "NugetPackageExplorer.exe",
+    "checkver": "github",
+    "description": "NuGet Package Explorer",
+    "extract_dir": "NuGetPackageExplorer",
+    "hash": "481ae3c318b5e3c4e72fcecfa8cf7238f9f0a843c7b64598ecb02c6e5100f06a",
+    "homepage": "https://github.com/NuGetPackageExplorer/NuGetPackageExplorer",
+    "license": "MIT",
+    "shortcuts": [
+        [
+            "NugetPackageExplorer.exe",
+            "Nuget Package Explorer"
+        ]
+    ],
+    "url": "https://github.com/NuGetPackageExplorer/NuGetPackageExplorer/releases/download/v6.0.27/PackageExplorer.6.0.27.zip",
+    "version": "6.0.27"
+}
