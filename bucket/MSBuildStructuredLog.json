@@ -15,7 +15,7 @@
     "checkver": "github",
     "description": "A logger for MSBuild that records a structured representation of executed targets, tasks, property and item values",
     "extract_dir": "lib\\net472",
-    "hash": "85095419c5e109c86d7c463d11331f3b50f77ddcbf4050f03a72df093775407d",
+    "hash": "5565087b56872fdfdd60c1dd4f8723f63c50add0af58255379859325de8ca0e2",
     "homepage": "https://github.com/KirillOsenkov/MSBuildStructuredLog",
     "license": "MIT",
     "shortcuts": [
@@ -24,6 +24,6 @@
             "MSBuild Structured Log Viewer"
         ]
     ],
-    "url": "https://github.com/KirillOsenkov/MSBuildStructuredLog/releases/download/v2.1.669/MSBuildStructuredLogViewer-2.1.669-full.nupkg",
-    "version": "2.1.669"
+    "url": "https://github.com/KirillOsenkov/MSBuildStructuredLog/releases/download/v2.1.686/MSBuildStructuredLogViewer-2.1.686-full.nupkg",
+    "version": "2.1.686"
 }
