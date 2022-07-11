@@ -1,10 +1,10 @@
 {
-    "version": "1.1.112",
+    "version": "1.1.113",
     "description": "🚀 SQL Server automation and instance migrations have never been safer, faster or freer",
     "homepage": "https://dbatools.io/",
     "license": "MIT",
-    "url": "https://psg-prod-eastus.azureedge.net/packages/dbatools.1.1.112.nupkg",
-    "hash": "c562ac01fb2a81bc3adf6bcf46d0d83d44ce673b5d85fdc65115bc22223c1efc",
+    "url": "https://psg-prod-eastus.azureedge.net/packages/dbatools.1.1.113.nupkg",
+    "hash": "cba530beaf28bf4a9d350fa26bba210ef9d1afbba559603d40781ce4049f7936",
     "pre_install": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content*.xml\" -Recurse",
     "psmodule": {
         "name": "dbatools"
