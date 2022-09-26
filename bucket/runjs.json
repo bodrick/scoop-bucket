@@ -1,0 +1,27 @@
+{
+    "autoupdate": {
+        "url": "https://github.com/lukehaas/RunJS/releases/download/v$version/RunJS-Setup-$version.exe#/dl.7ze"
+    },
+    "bin": "RunJS.exe",
+    "checkver": {
+        "github": "https://github.com/lukehaas/RunJS",
+        "regex": "tag/v([\\w.-]+)"
+    },
+    "description": "A JavaScript playground that auto-evaluates as you type.",
+    "hash": "fcbd528a51946e57ae0a0e354686b84f4d767baa98c94b2ddc88d93a38e544da",
+    "homepage": "https://runjs.dev/",
+    "license": "Freeware",
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\$fname\" \"$dir\\_tmp\"",
+        "Expand-7zipArchive \"$dir\\_tmp\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
+        "Remove-Item \"$dir\\_tmp\", \"$dir\\$fname\" -Force -Recurse"
+    ],
+    "shortcuts": [
+        [
+            "RunJS.exe",
+            "RunJS"
+        ]
+    ],
+    "url": "https://github.com/lukehaas/RunJS/releases/download/v2.6.0/RunJS-Setup-2.6.0.exe#/dl.7ze",
+    "version": "2.6.0"
+}
