@@ -7,13 +7,13 @@
         "url": "https://www.powershellgallery.com/packages/dbatools"
     },
     "description": "🚀 SQL Server automation and instance migrations have never been safer, faster or freer",
-    "hash": "36d9deee939c01534eee0ef1034a21d21a2748547a96eeb127e414830d0a4fa9",
+    "hash": "92196b95885ea313d00dd38f4667edefa981b20964027237be0b5cecc54a4d76",
     "homepage": "https://dbatools.io/",
     "license": "MIT",
     "pre_install": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content*.xml\" -Recurse",
     "psmodule": {
         "name": "dbatools"
     },
-    "url": "https://psg-prod-eastus.azureedge.net/packages/dbatools.1.1.137.nupkg",
-    "version": "1.1.137"
+    "url": "https://psg-prod-eastus.azureedge.net/packages/dbatools.1.1.139.nupkg",
+    "version": "1.1.139"
 }
