@@ -37,9 +37,9 @@
     },
     "post_install": [
         "'install-context', 'uninstall-context' | ForEach-Object {",
-        "    if (Test-Path \"$bucketsdir\\extras\\scripts\\gitkraken\\$_.reg\") {",
+        "    if (Test-Path \"$bucketsdir\\bodrick_scoop-bucket\\scripts\\gitkraken\\$_.reg\") {",
         "        $gitkrakenPath = \"$dir\\gitkraken.exe\".Replace('\\', '\\\\')",
-        "        $content = (Get-Content \"$bucketsdir\\extras\\scripts\\gitkraken\\$_.reg\").Replace('$gitkraken', $gitkrakenPath)",
+        "        $content = (Get-Content \"$bucketsdir\\bodrick_scoop-bucket\\scripts\\gitkraken\\$_.reg\").Replace('$gitkraken', $gitkrakenPath)",
         "        if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
         "        Set-Content \"$dir\\$_.reg\" $content -Encoding Ascii -Force",
         "    }",
