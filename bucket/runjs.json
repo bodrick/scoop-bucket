@@ -8,7 +8,7 @@
         "regex": "tag/v([\\w.-]+)"
     },
     "description": "A JavaScript playground that auto-evaluates as you type.",
-    "hash": "970e369732ee5938260befb05ac684e40f3ebb631e9e86156d2fb2f4e9792c67",
+    "hash": "492d184e639e636747e5b96c09c6adc52e706be295974ca67b22dc88bc236247",
     "homepage": "https://runjs.dev/",
     "license": "Freeware",
     "pre_install": [
@@ -22,6 +22,6 @@
             "RunJS"
         ]
     ],
-    "url": "https://github.com/lukehaas/RunJS/releases/download/v2.7.1/RunJS-Setup-2.7.1.exe#/dl.7ze",
-    "version": "2.7.1"
+    "url": "https://github.com/lukehaas/RunJS/releases/download/v2.7.4/RunJS-Setup-2.7.4.exe#/dl.7ze",
+    "version": "2.7.4"
 }
