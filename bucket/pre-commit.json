@@ -9,10 +9,10 @@
     "checkver": "github",
     "depends": "python",
     "description": "A framework for managing and maintaining multi-language pre-commit hooks.",
-    "hash": "2ba847c08c0eab281019da2b0a334ea2fdba0bd5eb8817e0dc5acad766267856",
+    "hash": "50b4680f15f38ae515a7b74a34ae59d6ee30b0385112ee52fc6653b8254df828",
     "homepage": "https://github.com/pre-commit/pre-commit",
     "license": "MIT",
     "pre_install": "echo \"python `\"$dir\\pre-commit-$version.pyz`\" @args\" | out-file \"$dir\\pre-commit.ps1\"",
-    "url": "https://github.com/pre-commit/pre-commit/releases/download/v3.0.4/pre-commit-3.0.4.pyz",
-    "version": "3.0.4"
+    "url": "https://github.com/pre-commit/pre-commit/releases/download/v3.1.0/pre-commit-3.1.0.pyz",
+    "version": "3.1.0"
 }
