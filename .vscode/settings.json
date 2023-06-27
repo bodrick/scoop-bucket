@@ -3,9 +3,17 @@
   "[powershell]": {
     "editor.formatOnSave": true
   },
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/tmp": true
+  },
   "json.schemas": [
     {
-      "fileMatch": ["bucket/*.json"],
+      "fileMatch": ["bucket/**/*.json"],
       "url": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json"
     }
   ],
