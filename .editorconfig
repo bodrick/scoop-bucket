@@ -1,25 +1,70 @@
-# EditorConfig (is awesome): http://EditorConfig.org
+##########################################
+# Common Settings
+##########################################
 
-# * top-most EditorConfig file
+# This file is the top-most EditorConfig file
 root = true
 
-# default style settings
+# All Files
 [*]
 charset = utf-8
-end_of_line = crlf
-indent_size = 4
 indent_style = space
+# (Please don't specify an indent_size here; that has too many unintended consequences.)
+
 insert_final_newline = true
 trim_trailing_whitespace = true
+max_line_length = 160
 
-[*.{[Bb][Aa][Tt],[Cc][Mm][Dd]}]
-# DOS/Win *requires* BAT/CMD files to have CRLF newlines
-end_of_line = crlf
+##########################################
+# File Extension Settings
+##########################################
 
-[*.{yml, yaml}]
+# XML Configuration Files
+[*.{xml}]
 indent_size = 2
 
-# Makefiles require tab indentation
-[{{M,m,GNU}akefile{,.*},*.mak,*.mk}]
-indent_style = tab
+# JSON Files
+[*.{json,json5,webmanifest}]
+indent_size = 2
+
+# YAML Files
+[*.{yml,yaml}]
+indent_size = 2
+
+# Markdown Files
+[*.{md,mdx}]
+trim_trailing_whitespace = false
+
+# Web Files
+[*.{htm,html,css,sass,scss,less,pcss,svg,vue}]
+indent_size = 2
+
+# JavaScript Files
+[*.{js,jsm,cjs,mjs}]
+indent_size = 4
+
+# TypeScript Files
+[*.{ts,tsx,d.ts,mts,cts}]
+indent_size = 4
+
+# Batch Files
+[*.{cmd,bat}]
+end_of_line = crlf
+indent_size = 2
+
+# Bash Files
+[*.sh]
 end_of_line = lf
+indent_size = 2
+
+# Makefiles
+[Makefile]
+indent_style = tab
+
+# Powershell files
+[*.ps1]
+indent_size = 4
+
+# mustache files
+[*.mustache]
+insert_final_newline = false
