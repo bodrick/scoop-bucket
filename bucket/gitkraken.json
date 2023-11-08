@@ -1,12 +1,12 @@
 {
     "architecture": {
         "32bit": {
-            "hash": "sha1:84a95d3256dccdda0ad9fef33b6ef7a061a40c5d",
-            "url": "https://release.gitkraken.com/win32/gitkraken-9.9.2-full.nupkg"
+            "hash": "bd2a41ef49456970851a9dc53ae6e8150af38f36b10bf8e99b49effd29fd9fdc",
+            "url": "https://release.gitkraken.com/win32/gitkraken-9.10.0-full.nupkg"
         },
         "64bit": {
-            "hash": "sha1:21bbcbff512a0812532dbd01632de6087efb2d34",
-            "url": "https://release.gitkraken.com/win64/gitkraken-9.9.2-full.nupkg"
+            "hash": "fb2f8544aaed3d3cc2d5d6c0ab0555de11e6aa9efd21920ca9b67c01dd22e571",
+            "url": "https://release.gitkraken.com/win64/gitkraken-9.10.0-full.nupkg"
         }
     },
     "autoupdate": {
@@ -59,5 +59,5 @@
             "GitKraken"
         ]
     ],
-    "version": "9.9.2"
+    "version": "9.10.0"
 }
