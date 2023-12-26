@@ -18,7 +18,7 @@
         "url": "https://github.com/winsiderss/si-builds/releases"
     },
     "description": "A powerful, multi-purpose tool that helps you monitor system resources, debug software and detect malware.",
-    "hash": "017186191eb3b9c44ee41d37cc69095750d97048d2863795bc1b0d1a2db61d66",
+    "hash": "f6a8c347847c97294a3141a0115ca1e883109e639663c6f716dc90f03e2dc78d",
     "homepage": "https://systeminformer.sourceforge.io",
     "license": "MIT",
     "post_install": [
@@ -40,6 +40,6 @@
             "System Informer"
         ]
     ],
-    "url": "https://github.com/winsiderss/si-builds/releases/download/3.0.7420/systeminformer-3.0.7420-bin.zip",
-    "version": "3.0.7420"
+    "url": "https://github.com/winsiderss/si-builds/releases/download/3.0.7422/systeminformer-3.0.7422-bin.zip",
+    "version": "3.0.7422"
 }
