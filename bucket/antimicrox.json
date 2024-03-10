@@ -1,9 +1,9 @@
 {
     "architecture": {
         "64bit": {
-            "extract_dir": "antimicrox-3.3.4-PortableWindows-AMD64",
-            "hash": "2b05228cd2cc93b1025d352050e80953ebbecd10b6badadbc76370acb349a8cf",
-            "url": "https://github.com/AntiMicroX/antimicrox/releases/download/3.3.4/antimicrox-3.3.4-PortableWindows-AMD64.zip"
+            "extract_dir": "antimicrox-3.4.0-PortableWindows-AMD64",
+            "hash": "99e39a74f06714402ac359a3aa0d7886276d5d7fb2a135814a304a3d53e86e77",
+            "url": "https://github.com/AntiMicroX/antimicrox/releases/download/3.4.0/antimicrox-3.4.0-PortableWindows-AMD64.zip"
         }
     },
     "autoupdate": {
@@ -27,5 +27,5 @@
             "AntiMicroX"
         ]
     ],
-    "version": "3.3.4"
+    "version": "3.4.0"
 }
