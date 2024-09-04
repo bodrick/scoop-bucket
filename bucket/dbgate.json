@@ -1,8 +1,8 @@
 {
     "architecture": {
         "64bit": {
-            "hash": "1dd44889d20fd71e07745eeed83204600a71948f4412f55195955ab92bccdfc9",
-            "url": "https://github.com/dbgate/dbgate/releases/download/v5.4.0/dbgate-5.4.0-win_x64.zip"
+            "hash": "c10b06ee1baae936bc67efcf129d50102e007e991a880e308cb9dca64fe45349",
+            "url": "https://github.com/dbgate/dbgate/releases/download/v5.4.1/dbgate-5.4.1-win_x64.zip"
         }
     },
     "autoupdate": {
@@ -34,5 +34,5 @@
             "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
-    "version": "5.4.0"
+    "version": "5.4.1"
 }
