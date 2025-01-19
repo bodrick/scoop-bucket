@@ -9,7 +9,7 @@
         "url": "https://api.github.com/repos/icsharpcode/ILSpy/releases/latest"
     },
     "description": ".NET assembly browser and decompiler.",
-    "hash": "400b488fcf4e4c909269e73d50db867741794258f7946f1a74db15896e6be99d",
+    "hash": "bd30e1048773a3cfbac6ec32fe6c7c8744e9ae40e63f0099a8b2d0945640433f",
     "homepage": "https://ilspy.net",
     "license": "MIT",
     "shortcuts": [
@@ -24,6 +24,6 @@
             "extras/windowsdesktop-runtime-lts"
         ]
     },
-    "url": "https://github.com/icsharpcode/ILSpy/releases/download/v8.2/ILSpy_binaries_8.2.0.7535-x64.zip",
-    "version": "8.2.0.7535"
+    "url": "https://github.com/icsharpcode/ILSpy/releases/download/v9.0/ILSpy_binaries_9.0.0.7889-x64.zip",
+    "version": "9.0.0.7889"
 }
