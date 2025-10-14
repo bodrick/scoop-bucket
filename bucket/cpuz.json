@@ -34,10 +34,10 @@
     },
     "checkver": "Version ([\\d.]+) for windows",
     "description": "System information software",
-    "hash": "ddbff8a049861b2095a4cd798cb5b8f0315a9d159850b9cb220c2a03d91dde28",
+    "hash": "ba54debe8cbd64c9d89eb95f878d2371bc9209e4da85b0651b228cb5c6a765aa",
     "homepage": "https://www.cpuid.com/softwares/cpu-z.html",
     "license": "Freeware",
     "persist": "cpuz.ini",
-    "url": "https://download.cpuid.com/cpu-z/cpu-z_2.16-en.zip",
-    "version": "2.16"
+    "url": "https://download.cpuid.com/cpu-z/cpu-z_2.17-en.zip",
+    "version": "2.17"
 }
