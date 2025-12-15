@@ -8,7 +8,7 @@
     },
     "depends": "innounp",
     "description": "NTLite. Cutting-edge Windows configuration tool",
-    "hash": "6d0170b11e8d30d43b41d02349e6801015cd278eb2aeba4aff40483e9a2f4441",
+    "hash": "8219daa8d91a327f691111b22d5dda047ecb9a88373b74616882803e7b485ded",
     "homepage": "https://www.ntlite.com/",
     "installer": {
         "script": [
@@ -30,5 +30,5 @@
         ]
     ],
     "url": "https://downloads.ntlite.com/files/NTLite_setup_x64.exe",
-    "version": "2025.12.10723"
+    "version": "2025.12.10736"
 }
