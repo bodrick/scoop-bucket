@@ -1,8 +1,8 @@
 {
     "architecture": {
         "64bit": {
-            "hash": "5ddfe51007b1e3a78d062a6f2daa94791975feb85408ae221d7ae3c884decf71",
-            "url": "https://github.com/dbgate/dbgate/releases/download/v7.0.1/dbgate-7.0.1-win_x64.zip"
+            "hash": "e972d0b232a6b3c3418c0d2139de832eb2b91c8ff2f7d3c44e15fd23bc3562de",
+            "url": "https://github.com/dbgate/dbgate/releases/download/v7.0.2/dbgate-7.0.2-win_x64.zip"
         }
     },
     "autoupdate": {
@@ -34,5 +34,5 @@
             "--user-data-dir=\"$dir\\User Data\""
         ]
     ],
-    "version": "7.0.1"
+    "version": "7.0.2"
 }
